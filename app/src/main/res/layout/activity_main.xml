@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI Calculator"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textSize="50dp"/>
+
+    <EditText
+        android:id="@+id/principal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Principal Amount"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"/>
+
+
+
+    <EditText
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rate of Interest"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"/>
+
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time Period"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"/>
+
+
+    <Button
+            android:id="@+id/calculate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="Calculate"
+             android:layout_marginTop="80dp"/>
+
+
+   <TextView
+       android:id="@+id/Emi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Emi"
+       android:gravity="center"
+       android:textSize="30dp"/>
+
+
+    <TextView
+        android:id="@+id/Total_amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total amt"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/Interest_amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interest amt"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+</LinearLayout>
